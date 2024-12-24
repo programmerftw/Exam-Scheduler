@@ -9,7 +9,7 @@ export function Footer() {
       <div className="container flex flex-col gap-4 py-8 md:flex-row md:items-center md:justify-between">
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-2 text-lg font-semibold">
-            ExamTime
+            Exam Planner
           </div>
           <p className="text-sm text-muted-foreground">
             Made with <Heart className="inline-block h-4 w-4 text-red-500" />{" "}
@@ -18,7 +18,7 @@ export function Footer() {
         </div>
         <div className="flex items-center gap-4">
           <Link
-            href="https://github.com/yourusername/examination-timetable-generation"
+            href="https://github.com/programmerftw"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary"
@@ -27,7 +27,7 @@ export function Footer() {
             <span className="sr-only">GitHub</span>
           </Link>
           <Link
-            href="https://twitter.com/yourusername"
+            href="https://x.com/UjjwalCodes"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary"
@@ -48,7 +48,7 @@ export function Footer() {
               GPL-3.0
             </Link>
           </p>
-          <p>© {new Date().getFullYear()} ExamTime. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Exam Planner. All rights reserved.</p>
         </div>
       </div>
     </footer>

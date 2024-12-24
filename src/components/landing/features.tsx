@@ -28,7 +28,7 @@ const features = [
 export function Features() {
   return (
     <section className="space-y-8">
-      <h2 className="text-3xl font-bold text-center">Why Choose ExamTime?</h2>
+      <h2 className="text-3xl font-bold text-center">Why Choose Exam Planner?</h2>
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
         {features.map((feature, index) => (
           <div
